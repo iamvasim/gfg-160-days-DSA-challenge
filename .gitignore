@@ -1,0 +1,29 @@
+# Ignore build/output folders
+out/
+
+# Ignore system files
+.DS_Store
+
+
+# Ignore build/output folders
+out/
+
+
+
+Xcd ~/Documents/wasim/GFG_160_days_DSA
+
+echo "# Ignore build/output folders
+out/
+
+# Ignore system files
+.DS_Store" > .gitignor
+
+cd ~/Documents/wasim/GFG_160_days_DSA
+
+echo "# Ignore build/output folders
+out/
+
+# Ignore system files
+.DS_Store" > .gitignore
+
+
