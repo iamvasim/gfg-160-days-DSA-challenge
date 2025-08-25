@@ -1,5 +1,10 @@
+
+
+
+// Given an array arr[]. Rotate the array to the left (counter-clockwise direction) by d steps, where d is a positive integer. Do the mentioned change in the array in place.
 public class rotateArray {
     static void reverseArray(int arr[], int start,int end){
+        
         while(start<end){
             int temp=arr[start];
             arr[start]=arr[end];
@@ -16,8 +21,8 @@ public class rotateArray {
 
 
 
-        // rotate left by d ....
-        reverseArray(arr,0,d-1); //
+        // rotate left by d .....
+        reverseArray(arr,0,d-1); 
         reverseArray(arr,d,n-1);
         reverseArray(arr,0,n-1);
 
